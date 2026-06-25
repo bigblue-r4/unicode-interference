@@ -4,6 +4,9 @@ Detect hidden non-Latin characters embedded in text using a **forward/reverse sc
 
 Finds Cyrillic, Greek, CJK, and other homoglyph substitutions that are invisible to humans but flip script context for downstream systems. Zero dependencies. Single static binary.
 
+[![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![crates.io](https://img.shields.io/crates/v/unicode-interference.svg)](https://crates.io/crates/unicode-interference)
+
 ```
 MIT · Rust 1.75+ · no_std compatible (lib only)
 ```
