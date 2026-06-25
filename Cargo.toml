@@ -1,0 +1,14 @@
+[package]
+name        = "unicode-interference"
+version     = "1.0.0"
+edition     = "2021"
+description = "Unicode script-mixing detector using forward/reverse interference patterns. Finds hidden non-Latin characters embedded in Latin text."
+license     = "MIT"
+repository  = "https://github.com/bigblue-r4/unicode-interference"
+keywords    = ["unicode", "security", "homoglyph", "script", "obfuscation"]
+categories  = ["text-processing", "command-line-utilities"]
+readme      = "README.md"
+
+[[bin]]
+name = "probe"
+path = "src/bin/probe.rs"
