@@ -6,10 +6,25 @@ Finds Cyrillic, Greek, CJK, and other homoglyph substitutions that are invisible
 
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![crates.io](https://img.shields.io/crates/v/unicode-interference.svg)](https://crates.io/crates/unicode-interference)
+[![docs.rs](https://img.shields.io/docsrs/unicode-interference)](https://docs.rs/unicode-interference)
 
 ```
 MIT · Rust 1.75+ · no_std compatible (lib only)
 ```
+
+## Contents
+
+- [The algorithm](#the-algorithm)
+- [Quick start](#quick-start)
+- [CLI](#cli)
+- [API](#api)
+- [Script legend](#script-legend)
+- [Scoring](#scoring)
+- [Attack examples](#attack-examples)
+- [What this solves](#what-this-solves)
+- [Benchmark](#benchmark)
+- [v2 roadmap](#v2-roadmap)
+- [License](#license)
 
 ---
 
