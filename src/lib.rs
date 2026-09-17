@@ -265,8 +265,7 @@ impl InterferenceReport {
         let mut script_row = String::from("SCRIPT: ");
         let mut fringe_row = String::from("FRINGE: ");
 
-        for i in 0..display_n {
-            let c = chars[i];
+        for (i, &c) in chars.iter().enumerate().take(display_n) {
             let s = self.scripts[i];
             let spike = self.interference[i];
 
@@ -283,9 +282,9 @@ impl InterferenceReport {
         }
 
         if truncated {
-            text_row.push_str("…");
-            script_row.push_str("…");
-            fringe_row.push_str("…");
+            text_row.push('…');
+            script_row.push('…');
+            fringe_row.push('…');
         }
 
         let mut out = format!("{}\n{}\n{}", text_row, script_row, fringe_row);
