@@ -4,6 +4,8 @@ Detect hidden non-Latin characters embedded in text using a **forward/reverse sc
 
 Finds Cyrillic, Greek, CJK, and other homoglyph substitutions that are invisible to humans but flip script context for downstream systems. Zero dependencies. Single static binary.
 
+**[Try it in your browser →](https://bigblue-r4.github.io/sgail-playground/#lookalike)** Paste any text and see the hidden characters, look-alike letters and encoded instructions, step by step. It runs locally; nothing is uploaded.
+
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![crates.io](https://img.shields.io/crates/v/unicode-interference.svg)](https://crates.io/crates/unicode-interference)
 [![docs.rs](https://img.shields.io/docsrs/unicode-interference)](https://docs.rs/unicode-interference)
